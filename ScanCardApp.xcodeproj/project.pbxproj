@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4186533E1DC0F5120041061F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186533D1DC0F5120041061F /* main.m */; };
+		418653411DC0F5120041061F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653401DC0F5120041061F /* AppDelegate.m */; };
+		418653441DC0F5120041061F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653431DC0F5120041061F /* ViewController.m */; };
+		418653471DC0F5120041061F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418653451DC0F5120041061F /* Main.storyboard */; };
+		418653491DC0F5120041061F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418653481DC0F5120041061F /* Assets.xcassets */; };
+		4186534C1DC0F5120041061F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4186534A1DC0F5120041061F /* LaunchScreen.storyboard */; };
+		418653571DC0F5120041061F /* ScanCardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653561DC0F5120041061F /* ScanCardAppTests.m */; };
+		418653621DC0F5120041061F /* ScanCardAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653611DC0F5120041061F /* ScanCardAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418653531DC0F5120041061F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418653311DC0F5110041061F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418653381DC0F5110041061F;
+			remoteInfo = ScanCardApp;
+		};
+		4186535E1DC0F5120041061F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418653311DC0F5110041061F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418653381DC0F5110041061F;
+			remoteInfo = ScanCardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418653391DC0F5110041061F /* ScanCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4186533D1DC0F5120041061F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4186533F1DC0F5120041061F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		418653401DC0F5120041061F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		418653421DC0F5120041061F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		418653431DC0F5120041061F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		418653461DC0F5120041061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		418653481DC0F5120041061F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4186534B1DC0F5120041061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4186534D1DC0F5120041061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418653521DC0F5120041061F /* ScanCardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanCardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418653561DC0F5120041061F /* ScanCardAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanCardAppTests.m; sourceTree = "<group>"; };
+		418653581DC0F5120041061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4186535D1DC0F5120041061F /* ScanCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418653611DC0F5120041061F /* ScanCardAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanCardAppUITests.m; sourceTree = "<group>"; };
+		418653631DC0F5120041061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418653361DC0F5110041061F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4186534F1DC0F5120041061F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4186535A1DC0F5120041061F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418653301DC0F5110041061F = {
+			isa = PBXGroup;
+			children = (
+				4186533B1DC0F5120041061F /* ScanCardApp */,
+				418653551DC0F5120041061F /* ScanCardAppTests */,
+				418653601DC0F5120041061F /* ScanCardAppUITests */,
+				4186533A1DC0F5110041061F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4186533A1DC0F5110041061F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418653391DC0F5110041061F /* ScanCardApp.app */,
+				418653521DC0F5120041061F /* ScanCardAppTests.xctest */,
+				4186535D1DC0F5120041061F /* ScanCardAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4186533B1DC0F5120041061F /* ScanCardApp */ = {
+			isa = PBXGroup;
+			children = (
+				4186533F1DC0F5120041061F /* AppDelegate.h */,
+				418653401DC0F5120041061F /* AppDelegate.m */,
+				418653421DC0F5120041061F /* ViewController.h */,
+				418653431DC0F5120041061F /* ViewController.m */,
+				418653451DC0F5120041061F /* Main.storyboard */,
+				418653481DC0F5120041061F /* Assets.xcassets */,
+				4186534A1DC0F5120041061F /* LaunchScreen.storyboard */,
+				4186534D1DC0F5120041061F /* Info.plist */,
+				4186533C1DC0F5120041061F /* Supporting Files */,
+			);
+			path = ScanCardApp;
+			sourceTree = "<group>";
+		};
+		4186533C1DC0F5120041061F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4186533D1DC0F5120041061F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		418653551DC0F5120041061F /* ScanCardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				418653561DC0F5120041061F /* ScanCardAppTests.m */,
+				418653581DC0F5120041061F /* Info.plist */,
+			);
+			path = ScanCardAppTests;
+			sourceTree = "<group>";
+		};
+		418653601DC0F5120041061F /* ScanCardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				418653611DC0F5120041061F /* ScanCardAppUITests.m */,
+				418653631DC0F5120041061F /* Info.plist */,
+			);
+			path = ScanCardAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418653381DC0F5110041061F /* ScanCardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418653661DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardApp" */;
+			buildPhases = (
+				418653351DC0F5110041061F /* Sources */,
+				418653361DC0F5110041061F /* Frameworks */,
+				418653371DC0F5110041061F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanCardApp;
+			productName = ScanCardApp;
+			productReference = 418653391DC0F5110041061F /* ScanCardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418653511DC0F5120041061F /* ScanCardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418653691DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppTests" */;
+			buildPhases = (
+				4186534E1DC0F5120041061F /* Sources */,
+				4186534F1DC0F5120041061F /* Frameworks */,
+				418653501DC0F5120041061F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418653541DC0F5120041061F /* PBXTargetDependency */,
+			);
+			name = ScanCardAppTests;
+			productName = ScanCardAppTests;
+			productReference = 418653521DC0F5120041061F /* ScanCardAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4186535C1DC0F5120041061F /* ScanCardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4186536C1DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppUITests" */;
+			buildPhases = (
+				418653591DC0F5120041061F /* Sources */,
+				4186535A1DC0F5120041061F /* Frameworks */,
+				4186535B1DC0F5120041061F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4186535F1DC0F5120041061F /* PBXTargetDependency */,
+			);
+			name = ScanCardAppUITests;
+			productName = ScanCardAppUITests;
+			productReference = 4186535D1DC0F5120041061F /* ScanCardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418653311DC0F5110041061F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ratheesh TR";
+				TargetAttributes = {
+					418653381DC0F5110041061F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					418653511DC0F5120041061F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 418653381DC0F5110041061F;
+					};
+					4186535C1DC0F5120041061F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 418653381DC0F5110041061F;
+					};
+				};
+			};
+			buildConfigurationList = 418653341DC0F5110041061F /* Build configuration list for PBXProject "ScanCardApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418653301DC0F5110041061F;
+			productRefGroup = 4186533A1DC0F5110041061F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418653381DC0F5110041061F /* ScanCardApp */,
+				418653511DC0F5120041061F /* ScanCardAppTests */,
+				4186535C1DC0F5120041061F /* ScanCardAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418653371DC0F5110041061F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4186534C1DC0F5120041061F /* LaunchScreen.storyboard in Resources */,
+				418653491DC0F5120041061F /* Assets.xcassets in Resources */,
+				418653471DC0F5120041061F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418653501DC0F5120041061F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4186535B1DC0F5120041061F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418653351DC0F5110041061F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418653441DC0F5120041061F /* ViewController.m in Sources */,
+				418653411DC0F5120041061F /* AppDelegate.m in Sources */,
+				4186533E1DC0F5120041061F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4186534E1DC0F5120041061F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418653571DC0F5120041061F /* ScanCardAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418653591DC0F5120041061F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418653621DC0F5120041061F /* ScanCardAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418653541DC0F5120041061F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418653381DC0F5110041061F /* ScanCardApp */;
+			targetProxy = 418653531DC0F5120041061F /* PBXContainerItemProxy */;
+		};
+		4186535F1DC0F5120041061F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418653381DC0F5110041061F /* ScanCardApp */;
+			targetProxy = 4186535E1DC0F5120041061F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		418653451DC0F5120041061F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418653461DC0F5120041061F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4186534A1DC0F5120041061F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4186534B1DC0F5120041061F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418653641DC0F5120041061F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		418653651DC0F5120041061F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418653671DC0F5120041061F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScanCardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		418653681DC0F5120041061F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScanCardApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4186536A1DC0F5120041061F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScanCardAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanCardApp.app/ScanCardApp";
+			};
+			name = Debug;
+		};
+		4186536B1DC0F5120041061F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScanCardAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanCardApp.app/ScanCardApp";
+			};
+			name = Release;
+		};
+		4186536D1DC0F5120041061F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScanCardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScanCardApp;
+			};
+			name = Debug;
+		};
+		4186536E1DC0F5120041061F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScanCardAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScanCardApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418653341DC0F5110041061F /* Build configuration list for PBXProject "ScanCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418653641DC0F5120041061F /* Debug */,
+				418653651DC0F5120041061F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418653661DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418653671DC0F5120041061F /* Debug */,
+				418653681DC0F5120041061F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		418653691DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4186536A1DC0F5120041061F /* Debug */,
+				4186536B1DC0F5120041061F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4186536C1DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4186536D1DC0F5120041061F /* Debug */,
+				4186536E1DC0F5120041061F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418653311DC0F5110041061F /* Project object */;
+}
