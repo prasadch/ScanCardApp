@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AD114264B908A2D980DC49D /* libPods-ScanCardAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97994FF65AE5939960E2922 /* libPods-ScanCardAppUITests.a */; };
+		4173E4561DC2027400E31039 /* CardDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4173E4551DC2027400E31039 /* CardDetails.m */; };
+		4173E45A1DC204C100E31039 /* SharedPersistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 4173E4591DC204C100E31039 /* SharedPersistance.m */; };
 		4186533E1DC0F5120041061F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186533D1DC0F5120041061F /* main.m */; };
 		418653411DC0F5120041061F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653401DC0F5120041061F /* AppDelegate.m */; };
-		418653441DC0F5120041061F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653431DC0F5120041061F /* ViewController.m */; };
+		418653441DC0F5120041061F /* FetchCardDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653431DC0F5120041061F /* FetchCardDetails.m */; };
 		418653471DC0F5120041061F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418653451DC0F5120041061F /* Main.storyboard */; };
 		418653491DC0F5120041061F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418653481DC0F5120041061F /* Assets.xcassets */; };
 		4186534C1DC0F5120041061F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4186534A1DC0F5120041061F /* LaunchScreen.storyboard */; };
 		418653571DC0F5120041061F /* ScanCardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653561DC0F5120041061F /* ScanCardAppTests.m */; };
 		418653621DC0F5120041061F /* ScanCardAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418653611DC0F5120041061F /* ScanCardAppUITests.m */; };
+		41C7B56F1DC1F7EB00F0D53B /* ConfirmDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C7B56E1DC1F7EB00F0D53B /* ConfirmDetailsVC.m */; };
+		E7F93D661AC129C6B8AD5E8F /* libPods-ScanCardApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BBE8714F7F0A0B8AD86A74 /* libPods-ScanCardApp.a */; };
+		F4880C7094B09385E58DB8AF /* libPods-ScanCardAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A08721ED79A2D1F6079A52 /* libPods-ScanCardAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035E243B6636CF4E181210BF /* Pods-ScanCardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCardApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCardApp/Pods-ScanCardApp.release.xcconfig"; sourceTree = "<group>"; };
+		05E93DFF15A8FD61BE3D31A4 /* Pods-ScanCardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCardApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCardApp/Pods-ScanCardApp.debug.xcconfig"; sourceTree = "<group>"; };
+		11A08721ED79A2D1F6079A52 /* libPods-ScanCardAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanCardAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4173E4541DC2027400E31039 /* CardDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetails.h; sourceTree = "<group>"; };
+		4173E4551DC2027400E31039 /* CardDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetails.m; sourceTree = "<group>"; };
+		4173E4581DC204C100E31039 /* SharedPersistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedPersistance.h; sourceTree = "<group>"; };
+		4173E4591DC204C100E31039 /* SharedPersistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedPersistance.m; sourceTree = "<group>"; };
 		418653391DC0F5110041061F /* ScanCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4186533D1DC0F5120041061F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4186533F1DC0F5120041061F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		418653401DC0F5120041061F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		418653421DC0F5120041061F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		418653431DC0F5120041061F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		418653421DC0F5120041061F /* FetchCardDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FetchCardDetails.h; sourceTree = "<group>"; };
+		418653431DC0F5120041061F /* FetchCardDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FetchCardDetails.m; sourceTree = "<group>"; };
 		418653461DC0F5120041061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		418653481DC0F5120041061F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4186534B1DC0F5120041061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,14 @@
 		4186535D1DC0F5120041061F /* ScanCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418653611DC0F5120041061F /* ScanCardAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanCardAppUITests.m; sourceTree = "<group>"; };
 		418653631DC0F5120041061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C7B56D1DC1F7EB00F0D53B /* ConfirmDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmDetailsVC.h; sourceTree = "<group>"; };
+		41C7B56E1DC1F7EB00F0D53B /* ConfirmDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmDetailsVC.m; sourceTree = "<group>"; };
+		5CD46C4A8FC864ADEF24D233 /* Pods-ScanCardAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCardAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCardAppUITests/Pods-ScanCardAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		643E37754DBEB65BAF63FFE4 /* Pods-ScanCardAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCardAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCardAppUITests/Pods-ScanCardAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66253F98739B869FFD837F75 /* Pods-ScanCardAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCardAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCardAppTests/Pods-ScanCardAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9441096FF7F8F27C745D1F7 /* Pods-ScanCardAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanCardAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanCardAppTests/Pods-ScanCardAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E97994FF65AE5939960E2922 /* libPods-ScanCardAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanCardAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BBE8714F7F0A0B8AD86A74 /* libPods-ScanCardApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanCardApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F93D661AC129C6B8AD5E8F /* libPods-ScanCardApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4880C7094B09385E58DB8AF /* libPods-ScanCardAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD114264B908A2D980DC49D /* libPods-ScanCardAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A02670B20721C15B2ACCDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05E93DFF15A8FD61BE3D31A4 /* Pods-ScanCardApp.debug.xcconfig */,
+				035E243B6636CF4E181210BF /* Pods-ScanCardApp.release.xcconfig */,
+				66253F98739B869FFD837F75 /* Pods-ScanCardAppTests.debug.xcconfig */,
+				B9441096FF7F8F27C745D1F7 /* Pods-ScanCardAppTests.release.xcconfig */,
+				643E37754DBEB65BAF63FFE4 /* Pods-ScanCardAppUITests.debug.xcconfig */,
+				5CD46C4A8FC864ADEF24D233 /* Pods-ScanCardAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4173E4501DC201CC00E31039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4173E4541DC2027400E31039 /* CardDetails.h */,
+				4173E4551DC2027400E31039 /* CardDetails.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4173E4571DC2048500E31039 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4173E4581DC204C100E31039 /* SharedPersistance.h */,
+				4173E4591DC204C100E31039 /* SharedPersistance.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		418653301DC0F5110041061F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				418653551DC0F5120041061F /* ScanCardAppTests */,
 				418653601DC0F5120041061F /* ScanCardAppUITests */,
 				4186533A1DC0F5110041061F /* Products */,
+				30A02670B20721C15B2ACCDD /* Pods */,
+				D7EC8635AB9E416AE98C845C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +158,19 @@
 		4186533B1DC0F5120041061F /* ScanCardApp */ = {
 			isa = PBXGroup;
 			children = (
+				4173E4571DC2048500E31039 /* Utilities */,
+				4173E4501DC201CC00E31039 /* Model */,
 				4186533F1DC0F5120041061F /* AppDelegate.h */,
 				418653401DC0F5120041061F /* AppDelegate.m */,
-				418653421DC0F5120041061F /* ViewController.h */,
-				418653431DC0F5120041061F /* ViewController.m */,
+				418653421DC0F5120041061F /* FetchCardDetails.h */,
+				418653431DC0F5120041061F /* FetchCardDetails.m */,
 				418653451DC0F5120041061F /* Main.storyboard */,
 				418653481DC0F5120041061F /* Assets.xcassets */,
 				4186534A1DC0F5120041061F /* LaunchScreen.storyboard */,
 				4186534D1DC0F5120041061F /* Info.plist */,
 				4186533C1DC0F5120041061F /* Supporting Files */,
+				41C7B56D1DC1F7EB00F0D53B /* ConfirmDetailsVC.h */,
+				41C7B56E1DC1F7EB00F0D53B /* ConfirmDetailsVC.m */,
 			);
 			path = ScanCardApp;
 			sourceTree = "<group>";
@@ -140,6 +201,16 @@
 			path = ScanCardAppUITests;
 			sourceTree = "<group>";
 		};
+		D7EC8635AB9E416AE98C845C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BBE8714F7F0A0B8AD86A74 /* libPods-ScanCardApp.a */,
+				11A08721ED79A2D1F6079A52 /* libPods-ScanCardAppTests.a */,
+				E97994FF65AE5939960E2922 /* libPods-ScanCardAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418653661DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardApp" */;
 			buildPhases = (
+				E846DABF04CC186918463E31 /* [CP] Check Pods Manifest.lock */,
 				418653351DC0F5110041061F /* Sources */,
 				418653361DC0F5110041061F /* Frameworks */,
 				418653371DC0F5110041061F /* Resources */,
+				6FC05F0FEFDD5043C4256A66 /* [CP] Embed Pods Frameworks */,
+				B77AFA6A0CD9B22F39087EF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 418653691DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppTests" */;
 			buildPhases = (
+				399C6761628C539AD7F1451E /* [CP] Check Pods Manifest.lock */,
 				4186534E1DC0F5120041061F /* Sources */,
 				4186534F1DC0F5120041061F /* Frameworks */,
 				418653501DC0F5120041061F /* Resources */,
+				4841A514BF492B0BD96F057E /* [CP] Embed Pods Frameworks */,
+				BD8F94D5FDF2781F28EA68DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4186536C1DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppUITests" */;
 			buildPhases = (
+				9D15F205B29CEAFCECF645C6 /* [CP] Check Pods Manifest.lock */,
 				418653591DC0F5120041061F /* Sources */,
 				4186535A1DC0F5120041061F /* Frameworks */,
 				4186535B1DC0F5120041061F /* Resources */,
+				810981BE931D5B3576D59769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +286,7 @@
 				TargetAttributes = {
 					418653381DC0F5110041061F = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9GK9GFQ5M2;
 						ProvisioningStyle = Automatic;
 					};
 					418653511DC0F5120041061F = {
@@ -268,13 +348,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		399C6761628C539AD7F1451E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4841A514BF492B0BD96F057E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanCardAppTests/Pods-ScanCardAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC05F0FEFDD5043C4256A66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanCardApp/Pods-ScanCardApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810981BE931D5B3576D59769 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanCardAppUITests/Pods-ScanCardAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D15F205B29CEAFCECF645C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B77AFA6A0CD9B22F39087EF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanCardApp/Pods-ScanCardApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8F94D5FDF2781F28EA68DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanCardAppTests/Pods-ScanCardAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E846DABF04CC186918463E31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		418653351DC0F5110041061F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418653441DC0F5120041061F /* ViewController.m in Sources */,
+				4173E45A1DC204C100E31039 /* SharedPersistance.m in Sources */,
+				418653441DC0F5120041061F /* FetchCardDetails.m in Sources */,
 				418653411DC0F5120041061F /* AppDelegate.m in Sources */,
+				4173E4561DC2027400E31039 /* CardDetails.m in Sources */,
+				41C7B56F1DC1F7EB00F0D53B /* ConfirmDetailsVC.m in Sources */,
 				4186533E1DC0F5120041061F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,9 +626,12 @@
 		};
 		418653671DC0F5120041061F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E93DFF15A8FD61BE3D31A4 /* Pods-ScanCardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9GK9GFQ5M2;
 				INFOPLIST_FILE = ScanCardApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +640,12 @@
 		};
 		418653681DC0F5120041061F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035E243B6636CF4E181210BF /* Pods-ScanCardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9GK9GFQ5M2;
 				INFOPLIST_FILE = ScanCardApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.pickzy.ScanCardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +654,7 @@
 		};
 		4186536A1DC0F5120041061F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66253F98739B869FFD837F75 /* Pods-ScanCardAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ScanCardAppTests/Info.plist;
@@ -454,6 +667,7 @@
 		};
 		4186536B1DC0F5120041061F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9441096FF7F8F27C745D1F7 /* Pods-ScanCardAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ScanCardAppTests/Info.plist;
@@ -466,6 +680,7 @@
 		};
 		4186536D1DC0F5120041061F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643E37754DBEB65BAF63FFE4 /* Pods-ScanCardAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ScanCardAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +692,7 @@
 		};
 		4186536E1DC0F5120041061F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD46C4A8FC864ADEF24D233 /* Pods-ScanCardAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ScanCardAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +721,7 @@
 				418653681DC0F5120041061F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418653691DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +730,7 @@
 				4186536B1DC0F5120041061F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4186536C1DC0F5120041061F /* Build configuration list for PBXNativeTarget "ScanCardAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +739,7 @@
 				4186536E1DC0F5120041061F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
